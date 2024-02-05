@@ -1,4 +1,7 @@
 import { createSlice, nanoid } from '@reduxjs/toolkit';
+import axios from 'axios';
+
+axios.defaults.baseURL = 'https://65c0f04adc74300bce8d070b.mockapi.io/api/v1/';
 
 const startContacts = [
   { id: nanoid(6), name: 'Valerii', number: '+380 98 380 4 380' },
