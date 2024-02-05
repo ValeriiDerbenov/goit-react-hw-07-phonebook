@@ -1,0 +1,32 @@
+.contactContainer {
+  margin-top: 30px;
+  display: flex;
+  align-items: baseline;
+}
+
+.contactName {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.contactNumber {
+  font-weight: 700;
+}
+
+.contactButton {
+  background-color: #535eaa;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-left: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.contactButton:hover,
+.contactButton:active {
+  background-color: #f50c0c;
+}
