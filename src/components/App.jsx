@@ -8,7 +8,7 @@ import Title from './Title/Title';
 
 export const App = () => {
   const contacts = useSelector(state => state.contactsStore.contacts);
-
+  
   return (
     <div>
       <Section>
@@ -16,7 +16,7 @@ export const App = () => {
         <ContactForm />
       </Section>
       <Section>
-        <Filter />
+      {contacts.length > 0 ? (<Filter />) : (<h3>Your phonebook is empty. Add first contact!</h3>)}
         {contacts.length > 0 && <ContactList />}
       </Section>
     </div>
