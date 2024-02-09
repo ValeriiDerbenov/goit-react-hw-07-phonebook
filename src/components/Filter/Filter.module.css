@@ -1,21 +1,26 @@
 .filterContainer {
-  padding: 20px;
+  padding: 20px 40px;
   background-color: rgb(229, 218, 240);
   border-radius: 6px;
+}
+.filterLabel {
+  display: flex;
+  flex-direction: column;
 }
 
 .filterLabelText {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 4px;
 }
 
 .filterInput {
-  width: 300px;
-  height: 30px;
   font-size: 14px;
   font-weight: 500;
   border-radius: 6px;
   border: 2px solid #ccc;
-  padding: 0 16px;
+  padding: 8px 16px;
 }

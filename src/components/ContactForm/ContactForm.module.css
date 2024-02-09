@@ -1,21 +1,27 @@
 .formContainer {
-  margin: 20px auto;
-  padding: 20px;
+  margin: 20px 0;
+  padding: 20px 40px;
   background-color: rgb(229, 218, 240);
   border-radius: 6px;
 }
 
 .form {
-  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
 }
 
 .formInput {
-  height: 30px;
+  width: max-width;
   border-radius: 6px;
   font-size: 14px;
-  padding: 0 12px;
+  padding: 8px 12px;
+  border: 2px solid #ccc;
 }
 
 .formLabelText {
@@ -28,7 +34,8 @@
 .formButton {
   background-color: #535eaa;
   color: white;
-  height: 36px;
+  padding: 8px 8px;
+  /* height: 36px; */
   margin-block: 20px;
   border-radius: 6px;
   border: none;
