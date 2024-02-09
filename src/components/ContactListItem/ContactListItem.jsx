@@ -6,7 +6,7 @@ const ContactListItem = ({ contact, deleteContact }) => {
     <div className={css.contactContainer}>
       <p className={css.contactName}>
         {contact.name}:{' '}
-        <span className={css.contactNumber}>{contact.number}</span>
+        <span className={css.contactNumber}>{contact.phone}</span>
       </p>
       <button
         className={css.contactButton}
